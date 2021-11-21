@@ -9,8 +9,8 @@ public class Aula2 {
         char letra;
 
         // As variaveis sao case-sensitive
-        int Num;
-        int nUm;
+        int Num = 10;
+        int nUm = 9;
 
         // Estilos de nomes das variaveis
         // camelCase
@@ -37,6 +37,6 @@ public class Aula2 {
 
         // Tipagem Estáticas
         // Não permite alterar o tipo da variável depois de declarada.
-        String nome = "Victor";
+        String nome2 = "Victor";
     }
 }
