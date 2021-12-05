@@ -13,27 +13,27 @@ public class Aula4 {
         final int IDADE_MINIMA = 18;
         int suaIdade = 17;
 
-        // if (suaIdade >= IDADE_MINIMA) {
-        // System.out.println("Voce pode beber, mas com cuidado");
-        // } else {
-        // System.out.println("Voce teoricamente nao pode beber");
-        // }
+        if (suaIdade >= IDADE_MINIMA) {
+            System.out.println("Voce pode beber, mas com cuidado");
+        } else {
+            System.out.println("Voce teoricamente nao pode beber");
+        }
 
         // Exemplo notas - if / else if / else
 
         int nota = 40;
 
-        // if (nota >= 90) {
-        // System.out.println("Nota final: A");
-        // } else if (nota >= 80) {
-        // System.out.println("Nota final: B");
-        // } else if (nota >= 70) {
-        // System.out.println("Nota final: C");
-        // } else if (nota >= 60) {
-        // System.out.println("Nota final: D");
-        // } else {
-        // System.out.println("Nota final: F");
-        // }
+        if (nota >= 90) {
+            System.out.println("Nota final: A");
+        } else if (nota >= 80) {
+            System.out.println("Nota final: B");
+        } else if (nota >= 70) {
+            System.out.println("Nota final: C");
+        } else if (nota >= 60) {
+            System.out.println("Nota final: D");
+        } else {
+            System.out.println("Nota final: F");
+        }
 
         // else if (nota == 85) {
         // System.out.println("Voce tirou a nota especial!!!!");
@@ -74,16 +74,16 @@ public class Aula4 {
                 break;
             case 3:
                 mes = "March";
-
+                break;
             case 4:
                 mes = "April";
-
+                break;
             case 5:
                 mes = "May";
                 break;
             case 6:
                 mes = "June";
-
+                break;
             case 7:
                 mes = "July";
                 break;
