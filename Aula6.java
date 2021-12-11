@@ -22,7 +22,7 @@ public class Aula6 {
 
         System.out.println(s1.equals(s3));
         System.out.println(s1.length());
-        System.out.println(s1.charAt(5));
+        System.out.println(s1.charAt(4));
 
         /*
          * Concatenação de Strings
@@ -88,7 +88,7 @@ public class Aula6 {
         System.out.print("Digite o seu nome: ");
         seuNome = scan.nextLine();
 
-        System.out.print("Digite sua idade: "); // Mostrar o caso onde o nextInt vem primeiro
+        System.out.print("Digite sua idade: ");
         suaIdade = scan.nextInt();
         scan.nextLine();
 
