@@ -51,8 +51,11 @@ public class Aula10 {
         }
 
         for (int i = 0; i < sobrenomes.length; i++) {
-            if (sobrenomes[i].equals("Monet"))
-                System.out.println("Index: " + i);
+            System.out.println(sobrenomes[i]);
         }
+
+        /*
+         * Pegando o index de um elemento usando for loop
+         */
     }
 }
