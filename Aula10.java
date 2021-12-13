@@ -57,5 +57,13 @@ public class Aula10 {
         /*
          * Pegando o index de um elemento usando for loop
          */
+
+        String sobrenomeTarget = "Monet";
+        for (int i = 0; i < sobrenomes.length; i++) {
+            if (sobrenomes[i].equals(sobrenomeTarget)) {
+                System.out.println("Target Index: " + i);
+                break;
+            }
+        }
     }
 }
